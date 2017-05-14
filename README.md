@@ -1,2 +1,2 @@
 # CSS_Course
-Practice exercises from CSS Course available on Lynda.com
+Practice exercises from CSS Courses available on Lynda.com
