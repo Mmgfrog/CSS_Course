@@ -1,0 +1,55 @@
+/* Color Palette-------
+#9AED9B Pale Green
+#89BCA6 Dark Sea Green
+#486B8E Queen Blue
+#52476B Independence
+#491A42 Russian Violet
+*/
+
+/* Global Styles-------*/
+body {
+	background: #491A42;
+	color: #9AED9B;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+a {
+	color: #52476B;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*Header and Footer-------*/
+header, footer {
+	background: #89BCA6;
+	color: white;
+}
+
+header h2 {
+	color: #486B8E;
+}
+
+/*Work Experience-------*/
+.work {
+	background: #52476B;
+}
+
+/*Education-------*/
+.education {
+	background: #486B8E;
+}
