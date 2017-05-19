@@ -11,11 +11,13 @@ body {
 	background: #491A42;
 	color: #9AED9B;
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 
 .content-wrap {
 	max-width: 950px;
 	margin: 0 auto;
+	padding: 50px;
 }
 
 h1, h2 {
@@ -29,6 +31,7 @@ h1 {
 
 h2 {
 	font-size: 40px;
+	margin-top: 0;
 }
 
 a {
@@ -45,8 +48,19 @@ header, footer {
 	color: white;
 }
 
+/*Header only*/
 header h2 {
 	color: #486B8E;
+}
+
+/*Footer only*/
+footer {
+	text-align: center;
+}
+
+.contact-info a {
+	display: inline-block;
+	padding: 10px;
 }
 
 /*Work Experience-------*/
