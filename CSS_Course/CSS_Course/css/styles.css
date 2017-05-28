@@ -7,6 +7,14 @@
 */
 
 /* Global Styles-------*/
+html {
+	box-sizing: border-box;
+}
+
+*, *:before; *:after {
+	box-sizing: inherit;
+}
+
 body {
 	background: #491A42;
 	color: #9AED9B;
@@ -18,6 +26,19 @@ body {
 	max-width: 950px;
 	margin: 0 auto;
 	padding: 50px;
+	overflow: auto;
+}
+
+.col-narrow {
+	float: left;
+	min-height: 150px;
+	width: 30%;
+}
+
+.col-wide {
+	float: left;
+	min-height: 150px;
+	width: 70%;
 }
 
 h1, h2 {
@@ -49,8 +70,13 @@ header, footer {
 }
 
 /*Header only*/
-header h2 {
+header h1, header h2 {
 	color: #486B8E;
+	margin: 0;
+}
+
+.profile-img {
+	border-radius: 50%;
 }
 
 /*Footer only*/
